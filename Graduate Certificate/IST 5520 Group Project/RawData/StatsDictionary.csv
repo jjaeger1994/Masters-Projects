@@ -1,0 +1,83 @@
+StatType,Stat,Name,Def
+Batting,1B,Single,Hits on which the batter reached first base safely without the contribution of a fielding error.
+Batting,2B,Double,Hits on which the batter reached second base safely without the contribution of a fielding error.
+Batting,3B,Triple,Hits on which the batter reached third base safely without the contribution of a fielding error.
+Batting,AB,At bat,"Batting appearances, not including bases on balls, hit by pitch, sacrifices, interference, or obstruction."
+Batting,AB/HR,At bats per home run,At bats divided by home runs.
+Batting,BA,Batting average,Hits divided by bats.
+Batting,BB,Base on balls (walk),Times receiving four balls and advancing to first base.
+Batting,BB/K,Walk-to-strikeout ratio,Number of base on balls divided by number of strikeouts.
+Batting,XBH,Extra base hits,Doubles plus triples plus home runs.
+Batting,FC,Fielder's choice,Times reaching base when a fielder chose to try for an out on another runner.
+Batting,AO/GO,Ground ball fly ball ratio,Number of ground ball outs divided by number of fly ball outs.
+Batting,GDP or GiDP,Grounded into double play,Number of ground balls hit that became double plays.
+Batting,GS,Grand Slam,"A home run with the bases loaded, resulting in four runs scoring, and four RBI credited to the batter."
+Batting,H,Hits,"Times reached base because of a batted, fair ball without error by the defense."
+Batting,HBP,Hit by pitch,Times touched by a pitch and awarded first base as a result.
+Batting,HR,Home runs,"Hits on which the batter successfully touched all four bases, without the contribution of a fielding error."
+Batting,IBB,Intentional base on balls,A base on balls (see BB above) deliverately thrown by the pitcher. Anso known as intentional walk.
+Batting,K,Strike out,"Number of times that strike three is taken or swung and missed, or bunted foul."
+Batting,LOB,Left on base,Number of runners not out nor scored at the end of an inning.
+Batting,OPB,On base percentage,Times reached base (H + BB + HBP) divided by at bats plus walks plus hit my pitch plus sacrifice flies (AB + BB + HBP + SF).
+Batting,OPS,On-base plus slugging,On-base percentage plus slugging average.
+Batting,PA,Plate appearance,Number of completed batting appearances.
+Batting,RC,Runs created,Statistic that attempts to measure how many runs a player has contributed to his team.
+Batting,RBI,Run batted in,"Number of runners who scored due to a batter's action, except when batter grounded into double play or reached on an error."
+Batting,SF,Sacrafice fly,Number of fly ball outs which allow another runner to advance on the basepaths or score.
+Batting,SH,Sacrifice hit,Number of sacrifice bunts which allows another runner to advance on the basepaths or score.
+Batting,SLG,Slugging average,Total bases divided by at-bats.
+Batting,TA,Total average,"Total bases, plus walks, plus steals, divided by plate appearances plus caught stealing."
+Batting,TB,Total bases,"One for each single, two for each double, three for each triple, and four for each home run."
+Batting,TOB,Times on base,"Times reaching base as a result of hits, walks, and hit-by-pitches."
+Baserunning,CS,Caught stealing,Times tagged out when attempting to steal.
+Baserunning,SB,Stolen base,"Number of bases advanced other than on batted balls, walks, or hits by pitch."
+Baserunning,R,Runs scored,Times reached home base legally and safely.
+Pitching,BABIP,Batting average on balls in play,"Batting average against a pitcher on batted balls ending a plate appearance, excluding home runs."
+Pitching,BB,Base on balls,"Times pitching four balls, allowing the batter-runner to advance to first base."
+Pitching,BB/9,Base on balls per 9 innings pitched,Base on balls times nine divided by innings pitched.
+Pitching,BF,Total batters faced,Opponent's total plate appearances.
+Pitching,BK,Balk,"Number of times pitcher commits an illegal pitching action or other illegal action while in contact with the pitching rubber, thus allowing baserunners to advance."
+Pitching,BS,Blown save,"Number of times entering the game in a save situation, and being charged the run which ties the game."
+Pitching,CERA,Component ERA,"An estimate of a pitcher's ERA based upon the individual components of his statistical line (K, H, 2B, 3B, HR, BB, HBP)."
+Pitching,GG,Complete game,Number of games where player was the only pitcher for his team.
+Pitching,DICE,Defense-Independent Component ERA,"An estimate of a pitcher's ERA based upon the defense-independent components of his statistical line (K, HR, BB, HBP)."
+Pitching,ER,Earned run,Number of runs that did not occur as a result of errors or passed balls.
+Pitching,ERA,Earned run average,Earned runs times innings in a game (usually nine) divided by innings pitched.
+Pitching,G,Games pitched,Number of times a pitcher pitches in a season.
+Pitching,GF,Games finished,Number of games pitched where player was the final pitcher for his team.
+Pitching,G/F,Ground ball fly ball ratio,Ground balls allowed divided by fly balls allowed.
+Pitching,GS,Starts,Number of games pitched where player was the first pitcher for his team.
+Pitching,H/9,Hits per nine innings,Hits allowed times nine divided by innings pitched.
+Pitching,H,Hits allowed,Total hits allowed.
+Pitching,HB,Hit batsman,"Times hit a batter with pitch, allowing runner to advance to first base."
+Pitching,HLD,Hold,"Number of games entered in a save situation, left in save situation, recorded at lease one out, and not having surrendured the lead."
+Pitching,HR,Home runs allowed,Total home runs allowed.
+Pitching,IBB,Intentional base on balls,Intentional base on balls allowed.
+Pitching,IR,Inherited runners,Number of runners on base when the pitcher enters the game.
+Pitching,IRA,Inherited runs allowed,Number of inherited runners allowed to score.
+Pitching,IP,Innings pitched,Number of outs recorded while pitching divided by three.
+Pitching,IP/GS,Innings pitched per game,Average number of innings pitched per game.
+Pitching,K,Strikeout,Number of batters who received strike three.
+Pitching,K/9,Strikeouts per nine innings,Strikeouts times nine divided by innings pitched.
+Pitching,K/BB,Strikeout-to-walk ratio,Number of strikeouts divided by number of base on balls.
+Pitching,L,Loss,"Number of games where pitcher was pitching while the opposing team took the lead, never lost the lead, and went on to win."
+Pitching,OBA,Opponents batting average,Hits allowed divided by at-bats faced.
+Pitching,PIT,Pitch count,Pitches thrown.
+Pitching,RA,Runs average,Number of runs allowed times nine divided by innings pitched.
+Pitching,RAA,Runs against average,A sabermetric statistic to predict win-percentage.
+Pitching,SO,Shutout,number of ocmplete games pitched with no runs allowed.
+Pitching,SV,Save,"Number of games where the pitcher enters a game led by the pitcher's team, finishes the game without surrendering the lead, is not the winning pitcher, and either (a) the lead was three runs or less when the pitcher entered the game; (b) the potential tying run was on base, at bat, or on deck; or (c) the pitcher pitched three or more innings."
+Pitching,W,Win,Number of games where pitcher was pitching while his team took the lead and went on to win.
+Pitching,WP,Wild pitches,"Charged when a pitch ist oo high, low, or wide of home plate for the catcher to field, thereby allowing one or more runners to advance or score."
+Fielding,A,Assists,"Number of outs recorded on a play where a fielder touched the ball, except if such touching is the putout."
+Fielding,DP,Double plays,One for each double play during which the fielder recorded a putout or an assist.
+Fielding,E,Errors,"Number of times a fielder fails to make a play he should have made with common effort, and the offense benefits as a result."
+Fielding,FP,Fielding percentage,Total plays (chances minus errors) divided by the number of total chances.
+Fielding,INN,Innings,Number of innings that a player is at one certain position.
+Fielding,PB,Passed ball,Charged to the catcher when the ball is dropped and one or more runners advance.
+Fielding,PO,Putout,"Number of times the fielder tags, forces, or appeals a runner and he is called out as a result."
+Fielding,RF,Range factor,Used to determine the amount of field that he player can cover. ([putouts + assists]*9)/innings played.
+Fielding,SB,Stolen bases,Number of times a runner advanced on the pitch without being thrown out by the catcher.
+Fielding,TC,Total chances,Assists plus putouts plus errors.
+Fielding,TP,Triple play,One for each triple play during which the fielder recorded a putout or an assist.
+General,G,Games played,"Number of games where the player played, in whole or in part."
